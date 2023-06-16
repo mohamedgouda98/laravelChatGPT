@@ -1,5 +1,6 @@
 {
     "name": "gouda/laravel-chatgpt",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Gouda\\LaravelChatgpt\\": "src/"
