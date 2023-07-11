@@ -25,7 +25,7 @@ class AudioGPT
 
         $response = $client->post('https://api.openai.com/v1/audio/transcriptions', [
             'headers' => [
-                'Authorization' => 'Bearer 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',
+                'Authorization' => 'Bearer ' . self::$gptToken,
             ],
             'multipart' => [
                 [
