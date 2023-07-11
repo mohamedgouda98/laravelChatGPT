@@ -51,7 +51,6 @@ OR run command:
 
 ```bash
 $answer = LaravelGPT::newQuestion('Hello GPT!');
-$payment->payWithOutUser('mohamed', 1000, '1311 1111 111 111', '05/25', '123');
 ```
 newQuestion function in this case will create dialog automatic in database, but if u want to send question in specific dialog you can use blew function:
 
@@ -62,6 +61,15 @@ LaravelGPTDialogs::getUserDialogs(Auth::id());
 Use this function to get one dialog
 ```bash
 LaravelGPTDialogs::getDialogById($dialog_id);
+```
+
+#Audio
+```bash
+$audio = AudioGPT::newAudio($filePath);
+```
+you can pass lang as optional as:
+```bash
+$audio = AudioGPT::newAudio($filePath, 'ar');
 ```
 
 ## Support

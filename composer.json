@@ -16,6 +16,7 @@
         "orchestra/testbench": "^7.8"
     },
     "require": {
-        "ext-json": "*"
+        "ext-json": "*",
+        "ext-http": "*"
     }
 }
